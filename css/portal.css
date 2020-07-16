@@ -45,7 +45,7 @@ h1>a {
     color:#000;
 }
 
-h2, p {
+h1, h2, p {
     margin-bottom: 10px;
 }
 
@@ -119,8 +119,8 @@ footer {
 
     /* Change background color of navigation on selected page */
     ul.topnav li a.selected {
-        		background-color: #ccc;
-        		color:#000;
+        		background-color: #ffaa00;
+        		color: white;
    	 }
 }
 
@@ -154,8 +154,8 @@ footer {
 
     /* Change background color of navigation on selected page */
     ul.topnav li a.selected {
-        background-color: #ccc;
-        color:#000;
+        background-color: #ffaa00;
+        color: white;
     }
 }
 
@@ -176,5 +176,12 @@ footer {
     img.tablet, img.desktop {
        	display:none;
     	}
+    
+    /* Change background color of navigation on selected page */
+    ul.topnav li a.selected {
+        background-color: #ffaa00;
+        color: white;
+    }
+}
 
 }
