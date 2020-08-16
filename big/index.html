@@ -1,0 +1,147 @@
+<?php include('includes/header.php'); ?>
+   
+<style>
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+    
+    ul {
+        margin-left: 40px;
+    }
+    
+    li {
+        margin-bottom: 2px;
+    }
+
+header {
+    margin: 10px 10px 10px 10px;
+}
+
+html {
+    background: rgb(0, 20, 37);
+}
+
+.wrapper {
+    background-color: rgb(150, 216, 216);
+    overflow: auto;
+    border: red 10px dotted;
+    padding: 10px;
+    margin-top: 20px;
+    top: 0;
+    color: rgb(0, 20, 37);
+}
+
+.logo {
+    margin-right: 10px;
+    text-shadow:2px 2px #ccc;
+}
+
+section {
+    margin-left: 5px;
+}
+
+#introduction {
+    margin: 10px 0 0 25px;
+}
+
+p {
+    font-family:Verdana, Geneva, sans-serif;
+    line-height: 1.45;
+}
+
+h1>a {
+    text-decoration: none;
+    color:#000;
+}
+
+h1, h2, p {
+    margin-bottom: 10px;
+}
+
+p ~ h2 {
+    margin-top: 20px;
+}
+
+aside img, .phone {
+    border:#ff6600 5px solid;
+    padding: 5px;
+    display: block;
+}
+
+#profile {
+    text-align: center;
+}
+
+/* Embed Responsively Rules! */
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: auto;
+    max-width: 98%;
+}
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+	clear:both;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+</style>
+
+<div class=wrapper>
+<!-- START LEFT COL -->
+<section>
+    <h2 class="pageID">Welcome to the BIG Project page!</h2>
+    <p>Welcome to the BIG Project page for Arthur Tabadero at Seattle Central College during the SUM 2020  quarter for IT162. Here you will find link at the navigation at the top to traverse the website. At the right you will also find additional information regarding the webpage's author.</p>
+    
+    <p>This site contains the following content:</p>
+        <ul>
+            <li>Google
+                <ul>
+                    <li>Map - A Google map of the Seattle Central Campus</li>
+                    <li>Calendar - A responsive Google calendar</li>
+                </ul>
+            </li>
+            <li>Web Accessibility - A YouTube video regarding Web Accessibility</li>
+            <li>Web Cam - Live YouTube stream and a Department of Transportation live web camera</li>
+            <li>Responsive vs Mobile - Research summary about Responsive Design vs Mobile Apps</li>
+            <li>Galleries - Research summary about Image Galleries</li>
+            <li>Flexbox - Research summary about Flexbox design</li>
+            <li>Shopping Carts - Research summary about e-commerce Shopping Carts</li>
+        </ul>
+    
+    
+    
+    
+
+</section>
+<!-- END LEFT COL -->
+
+<!-- START RIGHT COL -->
+<aside>
+<h1>About the Author</h1>
+</aside>
+<!-- END RIGHT COL -->
+</div>
+<!-- START Footer -->
+<?php include('includes/footer.php'); ?>
+<!-- END Footer --> 
+
+
+<!-- END Wrapper -->
+</body>
+</html>

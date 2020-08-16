@@ -1,63 +1,51 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <meta name="robots" content="noindex,nofollow" />
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://use.fontawesome.com/6a71565c22.js"></script>
-    <link rel="stylesheet" href="css/nav.css" />
-    <link rel="stylesheet" href="css/portal.css" />
-    <link rel="stylesheet" href="css/form.css" />
-    
-    <title>Arthur's SCC IT162 Portal Page</title>
-</head>
-
-<body>
-
-    <main class="wrapper">
-        
-    <?php include('includes/header.php'); ?>
+<?php include('includes/header.php'); ?>
    
-    <!-- start right column -->
-    <section>
-        <h2>This is the Page Template for the Big assignment!</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id pretium lorem. Curabitur rutrum tortor at lacus efficitur, vitae ultricies erat rhoncus. Vestibulum fringilla at neque sed varius. Duis aliquet magna ligula, eget ornare metus tristique nec. Ut fringilla vestibulum nisl, nec aliquam eros ultricies sed. Donec a ex vitae urna pharetra elementum. Integer metus neque, varius nec elementum ut, maximus lobortis tortor. Mauris sed purus mollis, placerat neque maximus, egestas orci. Proin pulvinar tempus gravida. Phasellus lobortis, nibh eu lacinia egestas, quam purus venenatis ante, at tempus elit erat at sapien. Aliquam eu pharetra orci. Nullam sit amet velit ornare, molestie felis et, condimentum nulla.</p>
-
-        <p>Nulla porttitor, ipsum in placerat fringilla, quam nulla elementum dui, non lobortis elit erat vitae est. Curabitur vulputate cursus est, ut imperdiet ante volutpat id. Quisque ultricies nisi felis, nec vulputate massa facilisis eu. Quisque commodo eu nisi non tincidunt. Suspendisse non dui pharetra, consequat felis in, condimentum nibh. Ut feugiat porta velit, sed ornare eros varius vel. Duis nisl eros, auctor eu ligula eget, imperdiet tempor elit. Fusce varius pharetra blandit. Mauris iaculis pulvinar egestas.</p>
-    </section>
-
-    <!-- end left column -->
-
-    <!-- start right column -->
-
-    <aside>
-        <h2>This is the Aside Box!</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id pretium lorem. Curabitur rutrum tortor at lacus efficitur, vitae ultricies erat rhoncus. Vestibulum fringilla at neque sed varius. Duis aliquet magna ligula, eget ornare metus tristique nec. Ut fringilla vestibulum nisl, nec aliquam eros ultricies sed. Donec a ex vitae urna pharetra elementum. Integer metus neque, varius nec elementum ut, maximus lobortis tortor. Mauris sed purus mollis, placerat neque maximus, egestas orci. Proin pulvinar tempus gravida. Phasellus lobortis, nibh eu lacinia egestas, quam purus venenatis ante, at tempus elit erat at sapien. Aliquam eu pharetra orci. Nullam sit amet velit ornare, molestie felis et, condimentum nulla. </p>
-    </aside>
-
-    <!-- end right column -->
-        
-    <?php include('includes/footer.php'); ?>
-        
-    </main>
-
+      
+<!-- START LEFT COL -->
+<section>
     
+    <div class="section-inside">
+        <h2 class="pageID">Welcome to the BIG Project page!</h2>
+        <p>Welcome to the BIG Project page for Arthur Tabadero at Seattle Central College during the SUM 2020  quarter for IT162. Here you will find link at the navigation at the top to traverse the website. At the right you will also find additional information regarding the webpage's author.</p>
+
+        <p>This site contains the following content:</p>
+            <ul>
+                <li><strong>Google</strong>
+                    <ul>
+                        <li><strong>Map</strong> - A Google map of the Seattle Central Campus</li>
+                        <li><strong>Calendar</strong> - A responsive Google calendar</li>
+                    </ul>
+                </li>
+                <li><strong>Web Accessibility</strong> - A YouTube video regarding Web Accessibility</li>
+                <li><strong>Web Cam</strong> - Live YouTube stream and a Department of Transportation live web camera</li>
+                <li><strong>Responsive vs Mobile</strong> - Research summary about Responsive Design vs Mobile Apps</li>
+                <li><strong>Galleries</strong> - Research summary about Image Galleries</li>
+                <li><strong>Flexbox</strong> - Research summary about Flexbox design</li>
+                <li><strong>Shopping Carts</strong> - Research summary about e-commerce Shopping Carts</li>
+            </ul>
+    </div>
     
+</section>
+<!-- END LEFT COL -->
+
+<!-- START RIGHT COL -->
+<aside>
     
-<!-- JavaScript associated with the W3Schools.com Top Navigation Response Exercise -->
-<script>
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
-</script>
+    <div class="aside-inside">
+        <h2>About the Author</h2>
+        <p>Hi! I am Arthur Tabadero! I am currently in the process of pursuing an Associates Degree in Programming at Seattle Central College. I like to do techy stuff and sleep a lot!</p>
+    </div>
+    
+</aside>
+<!-- END RIGHT COL -->
+
+<!-- START Footer -->
+<?php include('includes/footer.php'); ?>
+<!-- END Footer --> 
 
 
+
+<!-- END Wrapper -->
+</main>
 </body>
 </html>

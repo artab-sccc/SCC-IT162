@@ -1,0 +1,195 @@
+/*Universal selector to add default padding/margin to all boxes*/
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 10px 10px 10px 10px;
+}
+
+html {
+    background: rgb(0, 20, 37);
+}
+
+.wrapper {
+    background-color: rgb(150, 216, 216);
+    overflow: auto;
+    border: red 10px dotted;
+    padding: 10px;
+    margin-top: 20px;
+    top: 0;
+    color: rgb(0, 20, 37);
+}
+
+.logo {
+    margin-right: 10px;
+    text-shadow:2px 2px #ccc;
+}
+
+section {
+    margin-left: 5px;
+}
+
+#introduction {
+    margin: 10px 0 0 25px;
+}
+
+p {
+    font-family:Verdana, Geneva, sans-serif;
+    line-height: 1.45;
+}
+
+h1>a {
+    text-decoration: none;
+    color:#000;
+}
+
+h1, h2, p {
+    margin-bottom: 10px;
+}
+
+p ~ h2 {
+    margin-top: 20px;
+}
+
+aside img, .phone {
+    padding: 5px;
+    display: block;
+}
+
+#profile {
+    text-align: center;
+}
+
+/* Embed Responsively Rules! */
+div.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: auto;
+    max-width: 98%;
+}
+
+div.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+}
+
+footer {
+	clear:both;
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    margin-left: 40px;
+}
+    
+li {
+    margin-bottom: 2px;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.section-inside, .aside-inside {
+    padding: 10px;
+}
+
+/* START RESPONSIVE STYLES */
+
+/* DESKTOP */
+@media all and (min-width:1400px) {
+
+   .wrapper {
+		width: 80%;
+		margin: 20px auto auto auto;
+	}
+
+    section {
+		width:65%;
+		float:left;
+	}
+
+     aside {
+		width:34%;
+		float:right;
+	}
+
+    img.desktop {
+       		width:65%;
+            display:inline-block;
+    }
+
+    img.tablet, img.phone {
+       	display:none;
+    	}
+}
+
+
+/* TABLET */
+@media all and (min-width:737px) and (max-width:1399px) {
+
+	section {
+		width:50%;
+		float:left;
+	}
+    
+    section, #introduction {
+        margin: 10px;
+    }
+
+	aside {
+		width:39%;
+		float:right;
+	}
+
+    img.tablet {
+       		width:100%;
+            display:inline-block;
+    }
+
+    img.desktop, img.phone {
+       	display:none;
+    	}
+}
+
+/* PHONE */
+@media all and (max-width:736px) {
+    
+    section, #introduction {
+        margin: 5px;
+    }
+
+    img.phone {
+        margin: 10px;
+        float:right;
+       	width:50%;
+        display:inline-block;
+    }
+
+    img.tablet, img.desktop {
+       	display:none;
+    	}
+}
+
+

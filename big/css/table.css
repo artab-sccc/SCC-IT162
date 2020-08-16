@@ -1,0 +1,34 @@
+/* This css file is for styling the tables of the AIA page. */
+
+table.first, table.aia {
+    border: 1px solid #996600;
+    background-color: white;
+}
+
+td {
+    border: 1px solid #996600;
+    padding: 10px;
+}
+
+tr {
+    vertical-align: top;
+}
+
+tr ul {
+    padding: 10px;
+}
+
+th {
+    background-color: #996600;
+    color: white;
+}
+
+table {
+    margin-bottom: 20px;
+}
+
+div.aiapage {
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+}
+
